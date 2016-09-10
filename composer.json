@@ -1,0 +1,19 @@
+{
+    "name": "mydropteam/dropstart-dev",
+    "description": "a composer based blueprint to start Drupal 8 projects with default modules, this package holds all dev-modules",
+    "type": "project",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "",
+            "role": ""
+        }
+    ],
+    "require": {
+        "drupal/coder": "8.*",
+        "drupal/devel": "8.*",
+        "drupal/migrate_plus": "~8.2"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
